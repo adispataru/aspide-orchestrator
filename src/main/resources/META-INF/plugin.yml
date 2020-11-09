@@ -1,0 +1,13 @@
+id: a4c-aspide-provider
+name: ASPIDE Orchestrator plugin
+version: ${project.version}
+description: >
+  ASPIDE
+
+configuration_class: alien4cloud.aspide.PluginContextConfiguration
+
+component_descriptors:
+  - bean_name: aspide-orchestrator-factory
+    name: ASPIDE provider
+    description: >
+      Provider that allows definition of ASPIDE managed deployment targets within A4C.
